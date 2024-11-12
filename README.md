@@ -2,14 +2,6 @@
 
 This project uses Convolutional Neural Networks (CNNs) to identify plant diseases from images and provide detailed descriptions and solutions. We use two primary frameworks: TensorFlow (for image prediction and description) and PyTorch (for CNN model implementation).
 
-## Table of Contents
-Overview
-Technologies Used
-Setup and Dependencies
-Model Description
-Deployment
-Usage
-Acknowledgments
 
 Overview
 
