@@ -3,11 +3,11 @@
 This project uses Convolutional Neural Networks (CNNs) to identify plant diseases from images and provide detailed descriptions and solutions. We use two primary frameworks: TensorFlow (for image prediction and description) and PyTorch (for CNN model implementation).
 
 
-Overview
+Overview:
 
 The purpose of this project is to help farmers and agricultural experts identify plant diseases from leaf images. By analyzing an uploaded image, the system predicts the disease class, provides a description, and suggests solutions.
 
-Technologies Used
+Technologies Used:
 
 Python: Programming language.
 TensorFlow & Keras: For loading and running predictions with a pre-trained model.
@@ -16,7 +16,7 @@ NumPy, Pandas: Data manipulation and preprocessing.
 Image Processing: tensorflow.keras.preprocessing for image loading and preprocessing.
 CNN Model Architecture: Developed in PyTorch for customized training and evaluation.
 
-Setup and Dependencies
+Setup and Dependencies:
 Install the required libraries:
 
 ```bash
@@ -28,7 +28,7 @@ Download the trained model files and dataset:
 cnn_model1.h5: The pre-trained Keras model file for disease prediction.
 Disease_data_final.csv: A CSV file containing disease names, descriptions, and solutions.
 
-Deployment
+Deployment:
 TensorFlow Deployment:
 
 Place the cnn_model1.h5 and Disease_data_final.csv files in the same directory as main.py.
